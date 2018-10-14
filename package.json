@@ -1,0 +1,23 @@
+{
+  "name": "shopping-api",
+  "version": "1.0.0",
+  "description": "RESTful Api with NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "node.js"
+  ],
+  "author": "Bruno Felix",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.3",
+    "morgan": "^1.9.1"
+  }
+}
